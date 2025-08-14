@@ -1,24 +1,47 @@
-<h2> Hi, I'm Gaurav! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
-<p><em>CS Grad at USC
-</p>
+# Terminal-Style Portfolio Website
 
-[![Twitter: liquid_slr](https://img.shields.io/twitter/follow/liquid_slr?style=social)](https://twitter.com/liquid_slr)
-[![Linkedin: gaurav98](https://img.shields.io/badge/-gaurav98-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/liquidslr/)](https://www.linkedin.com/in/gaurav98/)
-[![GitHub liquidslr](https://img.shields.io/github/followers/liquidslr?label=follow&style=social)](https://github.com/liquidslr)
+A personal portfolio website built with **React**, styled like a Linux terminal, and deployed via **GitHub Pages**.  
+This portfolio showcases my projects, education, skills, and contact links in an animated typing format.
 
-
-### A little more about me...  
-
-```javascript
-const about = {
-  code: [Python, CPP , Go, Rust, NodeJS],
-  frameworks: [Django, React, React Native, Vue],
-  infrastructure: [AWS, GCP, Docker, Kubernetes, Nginx, Linkerd],
-  architecture: ["microservices", "service-mesh", "system design"],
-  interests: ["genai", "reinforcement learning"]
-}
-```
-
-<b>I I love connecting with different people</b> just say <b>hi, I'll be happy to connect</b> :)</em>
+## 🚀 Demo
+Live Site: [https://lemonade-21.github.io/cli-portfolio](https://lemonade-21.github.io/cli-portfolio)
 
 ---
+
+## 📌 Features
+- **Terminal-like UI** with animated typing commands
+- **Responsive Design** for mobile and desktop
+- Sections for:
+  - Skills & Interests
+  - Projects
+  - Education
+  - Resume link
+  - Contact links (GitHub, LinkedIn, etc.)
+- Easy to customize for personal branding
+- Deployed using GitHub Pages
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js, HTML5, CSS3
+- **Styling:** Custom CSS for terminal theme
+- **Deployment:** GitHub Pages
+
+---
+
+## 📂 Folder Structure
+my-portfolio/
+├── public/
+│ ├── index.html
+│ ├── favicon.ico
+│ ├── SahilKumar.pdf # Resume file
+│ └── ...
+├── src/
+│ ├── App.js # Main component
+│ ├── App.css
+│ ├── index.js
+│ ├── index.css
+│ ├── reportWebVitals.js
+│ └── setupTests.js
+├── package.json
+└── README.md
