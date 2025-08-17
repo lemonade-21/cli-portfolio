@@ -63,7 +63,7 @@ function App() {
               <span className="control minimize"></span>
               <span className="control maximize"></span>
             </div>
-            <div className="terminal-title">sahil@portfolio:~</div>
+            <div className="terminal-title">guest@deadsociety:~</div>
           </div>
 
           {/* Welcome Section */}
