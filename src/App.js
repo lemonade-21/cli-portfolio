@@ -69,7 +69,7 @@ function App() {
           {/* Welcome Section */}
           <div className="code-block">
             <div className="command-line">
-              <span id="a">guest@optimus</span>:<span id="b">~</span>
+              <span id="a">guest@deadsociety</span>:<span id="b">~</span>
               <span id="c">$</span>
               <span id="z"> {idx === 0 ? currentText : commands[0]}</span>
               {showCursor && <span className="cursor">|</span>}
@@ -85,7 +85,7 @@ function App() {
           {isVisible && idx >= 2 && (
             <div className="code-block">
               <div className="command-line">
-                <span id="a">guest@optimus</span>:<span id="b">~</span>
+                <span id="a">guest@deadsociety</span>:<span id="b">~</span>
                 <span id="c">$</span>
                 <span id="z"> {idx === 2 ? currentText : commands[1]}</span>
                 {showCursor && <span className="cursor">|</span>}
@@ -104,7 +104,7 @@ function App() {
           {isVisible && idx >= 4 && (
             <div className="code-block">
               <div className="command-line">
-                <span id="a">guest@optimus</span>:<span id="b">~</span>
+                <span id="a">guest@deadsociety</span>:<span id="b">~</span>
                 <span id="c">$</span>
                 <span id="z"> {idx === 4 ? currentText : commands[2]}</span>
                 {showCursor && <span className="cursor">|</span>}
@@ -123,7 +123,7 @@ function App() {
           {isVisible && idx >= 6 && (
             <div className="code-block">
               <div className="command-line">
-                <span id="a">guest@optimus</span>:<span id="b">~</span>
+                <span id="a">guest@deadsociety</span>:<span id="b">~</span>
                 <span id="c">$</span>
                 <span id="z"> {idx === 6 ? currentText : commands[3]}</span>
                 {showCursor && <span className="cursor">|</span>}
