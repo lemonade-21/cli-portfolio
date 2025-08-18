@@ -206,7 +206,7 @@ function App() {
                       <div id="z">
                         [
                         <span id="link">
-                          <a href="https://github.com/lemonade-21">link</a>
+                          <a href="https://lemonade-21.github.io/Blog-Page/">link</a>
                         </span>
                         ]
                       </div>
