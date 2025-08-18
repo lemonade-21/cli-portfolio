@@ -182,3 +182,30 @@
 }
 
 
+/* Section headers */
+.section-header {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Section links (Resume and Blog) */
+.section-content a {
+  color: #1DCD9F;
+  text-decoration: underline;
+  font-family: 'JetBrains Mono', monospace;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+/* Terminal-style hover effect */
+.terminal-link:hover {
+  color: #17b890;
+  text-shadow: 0 0 5px #1DCD9F, 0 0 10px #1DCD9F;
+  cursor: pointer;
+}
+
+/* Specific hover for Resume and Blog (optional) */
+.resume-link:hover,
+.blog-link:hover {
+  color: #17b890;
+  text-shadow: 0 0 5px #1DCD9F, 0 0 10px #1DCD9F;
+}
