@@ -168,7 +168,7 @@ function App() {
                     </div>
                     <div className="code-block section-content">
                       <a
-                        href="/Sahilkumar.pdf"
+                        href="/SahilKumar.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="terminal-link resume-link"
@@ -189,8 +189,12 @@ function App() {
                       <a
                         href="https://lemonade-21.github.io/Blog-Page/"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener"
                         className="terminal-link blog-link"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          window.open('https://lemonade-21.github.io/Blog-Page/', '_blank');
+                        }}
                       >
                         link
                       </a>
